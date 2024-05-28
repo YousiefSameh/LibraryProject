@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@700&display=swap');
+
+/* 
+  Normal Color: #00b4d8
+  Hoverd Color: #0077b6
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Cairo', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 10px 0;
+}
+
+header nav img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.logo {
+  font-family: "Noto Nastaliq Urdu", serif;
+  color: #00b4d8;
+  font-size: 25px;
+}
+
+header nav ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+header nav ul li {
+  padding: 15px;
+}
+
+header nav ul li a {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.2s all ease;
+}
+
+header nav ul li a:hover {
+  color: #00b4d8;
+}
+
+main {
+  display: flex;
+  align-items: flex-start;
+  padding: 20px 200px;
+}
+
+main > img {
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+main .content {
+  margin-right: 75px;
+}
+
+main .content .text h2 {
+  font-size: 35px;
+  cursor: pointer;
+  width: fit-content;
+}
+
+main .content .text .rates {
+  margin-bottom: 10px;
+}
+
+main .content .text .rates .rate {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+main .content .text .rates .rate img {
+  height: 20px;
+  width: 120px;
+  margin-left: 5px;
+}
+
+main .content .text ul {
+  list-style: none;
+}
+
+main .content .text ul li {
+  padding-bottom: 10px;
+}
+
+main .content .text ul li:last-child {
+  padding-bottom: 0;
+  margin-top: 10px;
+}
+
+main .content .text ul li a {
+  padding: 10px 15px;
+  border-radius: 10px;
+  background-color: #00b4d8;
+  color: white;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+main .content .text ul li a:hover {
+  background-color: #0077b6;
+}

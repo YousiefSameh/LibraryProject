@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@700&display=swap');
+
+/* 
+  Normal Color: #00b4d8
+  Hoverd Color: #0077b6
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Cairo', sans-serif;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 100vh;
+  background: url("../imgs/blob-scene-haikei.svg") no-repeat center/cover;
+}
+
+.logo {
+  font-family: "Noto Nastaliq Urdu", serif;
+  color: white;
+  font-size: 150px;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+  height: 100vh;
+}
+
+.right h2 {
+  font-size: 30px;
+}
+
+.right form {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  width: 40%;
+}
+
+.right form label {
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.right form input {
+  width: 100%;
+  padding: 5px 15px;
+  font-weight: bold;
+  color: #00b4d8;
+  border-radius: 25px;
+  border: 1px solid #00b4d8;
+  outline: none;
+  font-size: 16px;
+}
+
+.right form input#date {
+  text-align: center;
+  font-size: 16px;
+  padding-right: 15px;
+}
+
+.right form input::placeholder {
+  color: #00b4d8;
+}
+
+.right form .gender {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.right form .gender input {
+  width: 18px;
+  height: 18px;
+}
+
+.right form .sure {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin: 15px 0;
+}
+
+.right form .sure label {
+  font-size: 14px;
+}
+
+.right form .sure input {
+  width: 18px;
+  height: 18px;
+}
+
+.right form input:last-child {
+  background-color: #00b4d8;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s all ease;
+}
+
+.right form input:last-child:hover {
+  background-color: #0077b6;
+}
